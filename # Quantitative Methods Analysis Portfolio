@@ -1,0 +1,85 @@
+
+
+## Overview
+This repository contains the complete analysis for the Introduction to Quantitative Methods course assessment, focusing on two main studies:
+1. Corruption and Municipal Health Councils in Brazil
+2. Peace Index Analysis and Treatment Effects Study
+
+## Technical Skills Demonstrated
+- Statistical Analysis
+  - Linear Regression Models
+  - Difference-in-Differences (DiD) Analysis
+  - T-tests and Hypothesis Testing
+  - Confidence Interval Calculation
+- Data Visualization
+  - Box Plots
+  - Treatment Effect Visualization
+  - Statistical Plots using ggplot2
+- R Programming
+  - Data Manipulation
+  - Statistical Modeling
+  - Results Reporting
+
+## Project Structure
+### Corruption Analysis
+- Municipal health council age impact on corruption
+- Multi-variable regression analysis
+- Interaction effects study
+
+### Peace Index Study
+- Treatment effect analysis
+- Balance checks
+- DiD estimation
+
+## Key Packages Used
+```r
+library(ggplot2)    # Data visualization
+library(textreg)    # Regression analysis
+library(stargazer)  # Statistical reporting
+library(sjPlot)     # Plot models
+```
+
+## Key Findings
+1. Corruption Analysis:
+   - Relationship between council age and corruption indices
+   - Impact of poverty and reelection on corruption levels
+
+2. Peace Index Study:
+   - Treatment effects on peace index
+   - Temporal changes in peace indicators
+   - Statistical significance of findings
+
+## Repository Navigation
+- `/data`: Contains the datasets used in the analysis
+- `/analysis`: R scripts for statistical analysis
+- `/results`: Generated figures and tables
+- `/docs`: Detailed methodology and analysis description
+
+## Statistical Methods Applied
+1. Linear Regression Analysis
+2. Multiple Regression Models
+3. Interaction Effects Analysis
+4. Difference-in-Differences Estimation
+5. Balance Testing
+6. Confidence Interval Calculations
+
+## Getting Started
+```r
+# Clone the repository
+git clone https://github.com/[your-username]/quantitative-methods-portfolio.git
+
+# Install required packages
+install.packages(c("ggplot2", "textreg", "stargazer", "sjPlot"))
+
+# Run analysis scripts
+source("analysis/01_corruption_analysis/corruption_regression.R")
+source("analysis/02_peace_index_analysis/peace_analysis.R")
+```
+
+## Author
+[Your Name]
+- Course: Introduction to Quantitative Methods
+- Date: [Course Date]
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
